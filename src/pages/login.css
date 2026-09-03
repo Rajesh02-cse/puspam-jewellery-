@@ -95,12 +95,12 @@
     align-self: center;
     margin: 0px 0px 0px 0px;
     font-size: 45px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display';
     font-weight: 500;
 }
 .login-h2{
     font-size: 20px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit';
     padding: 5px;
     margin: 0px;
     font-weight: 400;
@@ -108,7 +108,7 @@
 p{
     align-self: center;
     font-size: 15px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit';
     margin: 0px;
     font-weight: 400;
 }
