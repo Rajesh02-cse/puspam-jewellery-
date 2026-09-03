@@ -9,9 +9,9 @@ const Contact = () => {
         <div className="contact-container">
           <div className="c-hero">
             <div className="c-hero1">
-                <img className="hero-img1" src="/media/contact/Group 308.png"></img>
-            <div className="hero-text">
-              <text className="hero-img2">Contact Us</text>
+                <img className="c-hero-img1" src="/media/contact/Group 308.png"></img>
+            <div className="c-hero-text">
+              <text className="c-hero-img2">Contact Us</text>
               <div className="hc">
                 <button>Home</button>
                 <span> |</span>
@@ -104,7 +104,7 @@ const Contact = () => {
                   </div>
               </div>              
             </div>
-            <div className="map">
+            <div className="c-map">
               <img src="/media/contact/Group 307.png" alt="call" />
             </div>
             <Footer/>
