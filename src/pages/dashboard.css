@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.dash-1 {
+    width: 1440px;
+    height: 1024px;
+    background-color: #FDFBF7; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.dash-2 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar {
+    width: 260px;
+    height: 100%;
+    background-image: url("/media/dashboard/Rectangle 8.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    position: relative;
+}
+
+.sidebar-logo {
+    width: 200px;
+    height: auto;
+}
+
+.dash-all{
+    display: contents;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 48px;
+    width: 183px;
+    border-radius: 50px;      
+    gap: 15px;   
+    background-image: linear-gradient(#F0CC8C,#D1A159);
+    background-repeat: no-repeat;
+    
+}
+
+.menu{
+    color: white;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.menu div{
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150%;
+    height: 40px;
+}
+.menu-icon{
+    height: 25px;
+    width: 25px;
+    padding-right: 10px;
+}
+
+.dashboard h1 {
+    margin: 0;                 
+    font-size: 18px;           
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    color: #4A0E17;
+}
+
+.dash-icon {
+    width: 22px;
+    height: auto;
+    padding-left: 20px;
+}
+.logout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 15%;
+    background-image: linear-gradient(#5D0507,#DA0F12);
+    width: 176px;
+    height: 49px;
+    border-radius: 14px;
+    gap: 10px;
+    cursor: pointer;
+
+}
+.logout-icon{
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+.logout button{
+    font-family: 'outfit';
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.searchbar{
+    position: absolute;
+    left: 50px;
+}
+
+.searchbar-div1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 82px;
+
+}
+.search-input{
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #DA0F12;
+    padding: 0px 40px 0px 20px;
+}
+.searchbar-div1 img{
+    position: absolute;
+    right: 10px;
+}
+.main-content{
+    width: 100%;
+    position: relative;
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 10px;
+    height: 82px;
+    background-image: linear-gradient( to right, #EADAC6,#B17527);
+}
+
+.nav-icons{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    right: -230px;
+    margin-top: 15px;
+    align-items: center;
+
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+#admin-p{
+    font-size: 20px;
+}
+.admin{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 40px;
+    width: 200px;
+}
+.admin-logo{
+    background-color: #800A0C;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.all-content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px;
+
+    height: 878px;
+    background-image: url('/media/dashboard/Rectangle 11.png');
+    background-size: 100% 100%;
+}
+.all-content h1{
+    font-size: 35px;
+    color: #951416;
+    font-family: 'outfit';
+    font-weight: 400;
+    margin: 0;
+}
+.all-content h2{
+    font-size: 41px;
+    color: #951416;
+    font-family: 'outfit';
+    font-weight: 600;
+    margin: 0;
+}
+.all-content p{
+    margin: 10px 0px;
+}
+
+.range{
+       margin: 10px 0px 40px 0px; 
+       color: #560008;
+}
+
+.all-grids{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.g4-grids{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 135px;
+    width: 100;
+    padding: 0px;
+}
+
+.grid-icon{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    background-color: #560008;
+    padding: 10px;
+    border-radius: 10px;
+}
+.g4-grids-4{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 215px;
+    height: 100px;
+    padding: 10px;    
+    border: 3px solid #951416;
+    border-radius: 15px;
+    background-color: #EADAC6;
+}
+.g4-grids-text h4{
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.g4-grids-text p4{
+    font-size: 35px;
+    font-weight: 600;
+}
+.g4-grids-text h3{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.g2-grids{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100;
+    gap: 50px;
+
+}
+
+.g2-grids-1{
+    width: 498px;
+    height: 334px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid#951416;
+    box-shadow: #4A0E17;
+    
+}
+
+.g2-grids-2{
+    width: 498px;
+    height: 100%;
+    background-image: url('/media/dashboard/Rectangle 390.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;    
+}
+.co1{
+    font-size: 50px;
+    font-family: "raleway";
+    font-weight: 600;
+}
+.co{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 30px;
+}
+.co div{
+    margin-left: 10px;
+}
+
+.co ul{
+    padding: 0;
+
+}
+.co-num {
+    color: #800A0C;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.co ul li{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.co ul li h5 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 250px; 
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.dash-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    background-color: #560008;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 62px;
+    bottom: 0;
+}

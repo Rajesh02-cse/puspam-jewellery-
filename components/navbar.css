@@ -1,0 +1,137 @@
+.navbar1{
+    width: 1440px;
+    height: 99px;
+    background-image: url("/media/Home/Rectangle 391.png");
+    display: flex;
+}
+
+.navbar1-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    margin-left: 97px;
+}
+.navbar1-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #D69F42;
+    border-radius: 30px;
+    padding: 10px;
+    background: #95141645;        
+}
+
+.navbar1-left img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+span{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    color:white;
+    margin-right: 5px;
+}
+
+.navbar1-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 397px;
+    height: 119px;
+    background-image: url("/media/Home/image 45.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    
+}
+.navbar1-mid-text{
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+    color:white;
+    margin-bottom: 10px;
+}
+
+.navbar1-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #D69F42;
+    border-radius: 30px;
+    padding: 10px;
+    gap: 10px;
+    height: 30px;
+    background: #95141645;
+}
+
+.navbar1-right-img{
+    width: 30px;
+    height: 30px;
+}
+
+----------------------------------------------
+
+.navbar2{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    z-index: 100;
+}
+
+.navbar2-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 1440px;
+    height: 150px;
+    background-image: url("/media/Home/Group 256.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+
+}
+
+.li-img{
+    width: 220px;
+    padding: 0;
+}
+.navbar2-1 button{
+    border: none;
+    position: relative;
+    background: transparent;
+    font-family: 'outfit';
+    font-size: 16px;
+    color:#951416;
+    cursor: pointer;
+}
+.navbar2-1-img{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 25px;
+    height: 25px;
+}
+
+.navbar2-2{
+    
+    pointer-events: none;
+    margin-top: -110px;    
+    width: 1440px;
+    height: 186px;
+    background-image: url("/media/Home/Group 397.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: -120px;
+    background-color: transparent;
+}
