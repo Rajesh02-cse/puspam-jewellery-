@@ -1,7 +1,7 @@
-.footer-container{
+.global-footer-container{
     width: 1440px;
-    bottom: 0;
-    z-index: 10;
+    position: relative;
+    margin-top: -100px;
 }
 
 .footer1{

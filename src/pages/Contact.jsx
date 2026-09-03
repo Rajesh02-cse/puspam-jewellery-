@@ -99,18 +99,17 @@ const Contact = () => {
                       </div>
                       <img src="/media/contact/--.png" alt="call" />
                       <img className="ci-img0" src="/media/contact/Rectangle 440.png" alt="call" />
-                    </div>
-                    
+                    </div>                    
                   </div>
               </div>              
             </div>
             <div className="c-map">
               <img src="/media/contact/Group 307.png" alt="call" />
             </div>
-            <Footer/>
           </div>
           
         </div>
+            <Footer/>
         
     </div>
 );

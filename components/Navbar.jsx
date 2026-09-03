@@ -29,7 +29,7 @@ const Navbar = ({current}) => {
       <div className="navbar2">
         <div className="navbar2-1" >
           {current == "Home" && <button style={{backgroundImage: 'url("/media/contact/11.png")', backgroundRepeat: 'no-repeat',
-            backgroundSize:'100% 100%',height: '60px', width: '70px', color:'white'}} onClick={() => navigate('/Dashboard/Home')}>Home</button>}
+            backgroundSize:'100% 100%',height: '60px', width: '65px', color:'white'}} onClick={() => navigate('/Dashboard/Home')}>Home</button>}
           {current != "Home" && <button onClick={() => navigate('/Dashboard/Home')}>Home</button>}
           <img  src="/media/Home/Line 8.png" alt="img" />
           <button>About Us</button>
@@ -44,7 +44,7 @@ const Navbar = ({current}) => {
           <img  src="/media/Home/Line 8.png" alt="img" />
 
           {current == "Contact Us" && <button  style={{backgroundImage: 'url("/media/contact/11.png")', backgroundRepeat: 'no-repeat',
-            backgroundSize:'100% 100%',height: '60px', width: '70px', color:'white'}} onClick={() => navigate('/Dashboard/Contact')}>Contact Us</button>}   
+            backgroundSize:'100% 100%',height: '60px', width: '65px', color:'white'}} onClick={() => navigate('/Dashboard/Contact')}>Contact Us</button>}   
           {current != "Contact Us" && <button onClick={() => navigate('/Dashboard/Contact')}>Contact Us</button>}      
           <div className="navbar2-1-img">
                 <img  src="/media/Home/Group 255.png" alt="img" />

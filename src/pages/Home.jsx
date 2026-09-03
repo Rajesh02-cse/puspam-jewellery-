@@ -3,9 +3,9 @@ import Footer from '../../components/Footer';
 import './home.css';
 const Home = () => {
   return (
-    <div style={{ position: 'relative', minHeight: '100vh' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', backgroundColor: '#1a0203' }}>
         <Navbar current={"Home"} />
-        <div className="Home-Container">
+        <div className="home-container" style={{ flex: 1,paddingBottom:'100px' }}>
           <div className="h-hero">
             <div className="h-hero1">                
               <div className="h-hero-text">
@@ -28,9 +28,9 @@ const Home = () => {
 
 
           <div>
-        <Footer/>
           </div>          
-        </div>        
+        </div>  
+        <Footer/>      
     </div>
 );
 };

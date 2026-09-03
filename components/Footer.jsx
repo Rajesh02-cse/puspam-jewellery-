@@ -1,7 +1,7 @@
 import './footer.css';
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <div className="global-footer-container">
         <div className="footer1">
             <img src="/media/Home/Group 245.png" className="footer1-img" alt="img" />
         </div>
